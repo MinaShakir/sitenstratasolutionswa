@@ -210,6 +210,14 @@ nav li:hover .dropdown-content {
 .cta-button:hover { transform: translateY(-3px); background-color: #d44335; box-shadow: 0 6px 20px rgba(235, 84, 68, 0.4); }
 
 /* --- 3-PILLAR SERVICES SECTION (WITH BACKGROUND IMAGES) --- */
+.pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;            
+    max-width: 1200px;    
+    margin: 40px auto;    
+    padding: 0 20px;    
+}  
 .pillar-card { 
     background-size: cover;
     background-position: center;
