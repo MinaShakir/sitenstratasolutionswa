@@ -57,10 +57,36 @@
         .dropdown-content a:hover { background-color: #f9f9f9; color: var(--primary-orange); padding-left: 25px; }
 
         /* --- SUBPAGE HERO --- */
-        .subpage-hero { padding: 80px 5%; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/images/Hero.jpg'); background-size: cover; background-position: center; text-align: center; color: white; }
-        .subpage-hero h1 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 15px; text-transform: uppercase; }
-        .subpage-hero p { font-family: var(--font-sub-headings); font-size: 1.2rem; color: #ddd; max-width: 700px; margin: 0 auto; }
+       .subpage-hero { 
+       min-height: 70vh; 
+       background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../images/Hero.jpg'); 
+       background-size: cover; 
+       background-position: center; 
+       display: flex;
+       flex-direction: column;
+       justify-content: center; 
+       align-items: center;     
+       text-align: center; 
+       color: white; 
+       padding: 60px 20px;
+       }
 
+       .subpage-hero h1 { 
+       font-size: clamp(1.8rem, 5vw, 3.5rem); /* Ipinantay ang laki ng title sa Home page */
+       margin-bottom: 15px; 
+       text-transform: uppercase; 
+       letter-spacing: 2px;
+       text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+       }
+
+       .subpage-hero p { 
+       font-family: var(--font-sub-headings); 
+       font-size: 1.2rem; 
+       color: #ddd; 
+       max-width: 700px; 
+       margin: 0 auto; 
+       }
+        
         /* --- CONTENT SECTION --- */
         .content-section { padding: 80px 5%; max-width: 1200px; margin: 0 auto; }
         .content-section h2 { font-size: 2.2rem; color: var(--dark-bg); margin-bottom: 15px; text-transform: uppercase; text-align: center; }
