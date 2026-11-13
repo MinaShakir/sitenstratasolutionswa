@@ -209,7 +209,28 @@ nav li:hover .dropdown-content {
 }
 .cta-button:hover { transform: translateY(-3px); background-color: #d44335; box-shadow: 0 6px 20px rgba(235, 84, 68, 0.4); }
 
-/* --- 3-PILLAR SERVICES SECTION (WITH BACKGROUND IMAGES) --- */
+/* --- SECTION HEADER PARA SA OUR SPECIALIZED SERVICES --- */
+.services-section {
+    text-align: center; 
+    padding: 60px 20px 20px 20px;
+}
+
+.services-section h2 {
+    font-size: 2.2rem;           
+    font-weight: 800;            
+    text-transform: uppercase;   
+    letter-spacing: 1px;        
+    color: #1a1a1a;            
+    margin-bottom: 12px;
+}
+
+.services-section > p {
+    font-size: 1.05rem;
+    color: #555555;             
+    max-width: 700px;           
+    margin: 0 auto 40px auto;   
+    line-height: 1.6;
+}
 .pillar-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
